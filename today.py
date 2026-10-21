@@ -134,11 +134,27 @@ li {{ display: flex; gap: 12px; align-items: baseline; padding: 7px 0; border-bo
     print(out_dir / "banner.png")
 
 
+SECTION_TAGS = [("ai\\b", "AI"), ("secur", "ATTACK"), ("attack", "ATTACK"), ("cve", "CVE"), ("post-quantum", "PQC"),
+                ("bitcoin", "BTC"), ("zero", "ZK"), ("zk", "ZK"), ("mpc", "MPC"), ("threshold", "MPC"),
+                ("paper", "PAPER"), ("eprint", "PAPER"), ("standard", "STD"),
+                ("supply", "SUPPLY"), ("ethereum", "ETH")]
+
+
 def linkify(post):
-    """Show ' — <url>' as a short [LINK]; the Copy button still copies the full URLs."""
-    return re.sub(r'\s+—\s+(https?://\S+)|(https?://\S+)',
-                  lambda m: f' <a href="{m.group(1) or m.group(2)}" target="_blank" rel="noopener">[LINK]</a>',
-                  html.escape(post, quote=False))
+    """Show ' — <url>' as a short [LINK] in its section's banner tag colour.
+    The Copy button still copies the full URLs."""
+    out, colour = [], "#4fd6ff"
+    for line in post.splitlines():
+        low = line.lower()
+        if line.strip() and not line.lstrip().startswith(("•", "#")) and "http" not in low:
+            for key, tag in SECTION_TAGS:
+                if re.search(r"\b" + key, low):
+                    colour = TAG_COLORS[tag]
+                    break
+        out.append(re.sub(r'\s+—\s+(https?://\S+)|(https?://\S+)',
+                          lambda m: f' <a href="{m.group(1) or m.group(2)}" target="_blank" rel="noopener" style="--c:{colour}">[LINK]</a>',
+                          html.escape(line, quote=False)))
+    return "\n".join(out)
 
 
 def index():
@@ -163,6 +179,8 @@ img {{ width: 100%; border-radius: 6px; display: block; }}
 .row {{ display: flex; gap: 14px; align-items: center; margin: 12px 0; }}
 button {{ font: inherit; background: #39ff9f; color: #05040d; border: 0; border-radius: 4px; padding: 6px 12px; cursor: pointer; }}
 a {{ color: #4fd6ff; }}
+pre.post a {{ color: var(--c); text-decoration: none; text-shadow: 0 0 6px var(--c); }}
+pre.post a:hover {{ text-decoration: underline; }}
 pre.post {{ white-space: pre-wrap; background: #05040d; border: 1px solid #1a1638; padding: 12px; border-radius: 6px; margin: 0; }}
 </style></head><body><main>
 <h1>CRYPTOGRAPHY TODAY</h1><div class="sub">Daily roundup · {len(eds)} edition(s)</div>
