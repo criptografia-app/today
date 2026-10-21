@@ -17,6 +17,7 @@ Links never go on the banner; they live in post.txt.
 """
 import html
 import json
+import re
 import os
 import subprocess
 import sys
@@ -133,6 +134,13 @@ li {{ display: flex; gap: 12px; align-items: baseline; padding: 7px 0; border-bo
     print(out_dir / "banner.png")
 
 
+def linkify(post):
+    """Show ' — <url>' as a short [LINK]; the Copy button still copies the full URLs."""
+    return re.sub(r'\s+—\s+(https?://\S+)|(https?://\S+)',
+                  lambda m: f' <a href="{m.group(1) or m.group(2)}" target="_blank" rel="noopener">[LINK]</a>',
+                  html.escape(post, quote=False))
+
+
 def index():
     eds = sorted((p for p in (ROOT / "editions").iterdir() if (p / "banner.png").exists()), reverse=True)
     cards = []
@@ -141,7 +149,7 @@ def index():
         cards.append(f"""<article><h2>{p.name}</h2>
 <a href="editions/{p.name}/banner.png"><img src="editions/{p.name}/banner.png" alt="Cryptography Today banner, {p.name}"></a>
 <div class="row"><button onclick="copy(this)">Copy post</button><a href="editions/{p.name}/banner.png" download>Download banner</a></div>
-<pre class="post">{html.escape(post)}</pre></article>""")
+<pre class="post">{linkify(post)}</pre><pre class="raw" hidden>{html.escape(post)}</pre></article>""")
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Cryptography Today</title><style>
 @font-face {{ font-family: VT323; src: url("assets/VT323-Regular.ttf"); }}
@@ -160,7 +168,7 @@ pre.post {{ white-space: pre-wrap; background: #05040d; border: 1px solid #1a163
 <h1>CRYPTOGRAPHY TODAY</h1><div class="sub">Daily roundup · {len(eds)} edition(s)</div>
 {"".join(cards) or "<p>No editions yet.</p>"}
 </main><script>
-function copy(b) {{ const t = b.closest('article').querySelector('pre.post').innerText;
+function copy(b) {{ const t = b.closest('article').querySelector('pre.raw').textContent;
   navigator.clipboard.writeText(t).then(() => {{ b.textContent = 'Copied'; setTimeout(() => b.textContent = 'Copy post', 1500); }}); }}
 </script></body></html>"""
     (ROOT / "index.html").write_text(page)
