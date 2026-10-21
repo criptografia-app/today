@@ -141,7 +141,7 @@ SECTION_TAGS = [("ai\\b", "AI"), ("secur", "ATTACK"), ("attack", "ATTACK"), ("cv
 
 
 def linkify(post):
-    """Show ' — <url>' as a short [LINK] in its section's banner tag colour.
+    """Show ' — <url>' as a short [LINK] at the start of the line, in its section's banner tag colour.
     The Copy button still copies the full URLs."""
     out, colour = [], "#4fd6ff"
     for line in post.splitlines():
@@ -151,9 +151,15 @@ def linkify(post):
                 if re.search(r"\b" + key, low):
                     colour = TAG_COLORS[tag]
                     break
-        out.append(re.sub(r'\s+—\s+(https?://\S+)|(https?://\S+)',
-                          lambda m: f' <a href="{m.group(1) or m.group(2)}" target="_blank" rel="noopener" style="--c:{colour}">[LINK]</a>',
-                          html.escape(line, quote=False)))
+        m = re.search(r'\s*—\s+(https?://\S+)\s*$|(https?://\S+)', line)
+        if not m:
+            out.append(html.escape(line, quote=False))
+            continue
+        url = m.group(1) or m.group(2)
+        a = f'<a href="{html.escape(url)}" target="_blank" rel="noopener" style="--c:{colour}">[LINK]</a>'
+        text = html.escape((line[:m.start()] + line[m.end():]).rstrip(), quote=False)
+        bullet = re.match(r'\s*•\s*', text)
+        out.append(f"{bullet.group(0)}{a} {text[bullet.end():]}" if bullet else f"{a} {text}")
     return "\n".join(out)
 
 
