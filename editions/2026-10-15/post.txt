@@ -1,0 +1,23 @@
+Cryptography Today — Oct 15, 2026
+
+Threshold ECDSA that stays robust with a third of signers malicious, built for bridge-scale signer sets, leads a quiet but useful day.
+
+🔐 Security & attacks
+• Structural cryptanalysis of the Eevee AEAD family — https://eprint.iacr.org/2026/2496
+• Reaction attack on CKKS deployments — https://eprint.iacr.org/2026/2490
+• Measuring human cryptanalysis effort (via Schneier) — https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html
+
+🧮 Post-quantum
+• Fault injection on HQC and BIKE beyond Fujisaki-Okamoto — https://eprint.iacr.org/2026/2492
+• FAEST signatures on GPUs — https://eprint.iacr.org/2026/2489
+
+₿ Bitcoin
+• Silent Payments for multiparty wallets — https://delvingbitcoin.org/t/silent-payments-for-multiparty-wallets/2960
+• Open-source multisig coordinator with a live signet demo — https://delvingbitcoin.org/t/open-source-bitcoin-multisig-coordinator-shared-signing-queue-hardware-wallets-live-signet-demo/2957
+
+📄 New papers (IACR ePrint)
+• Robust ECDSA threshold signing at scale — https://eprint.iacr.org/2026/2493
+• Speeding up sumcheck using algebraic geometry — https://eprint.iacr.org/2026/2494
+
+What did I miss? Drop it below.
+#Cryptography #PostQuantum #Bitcoin #ZeroKnowledge

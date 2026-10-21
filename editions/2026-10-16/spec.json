@@ -1,0 +1,10 @@
+{"date": "2026-10-16",
+ "headline": "The NIST curve seeds mystery is solved: drand48(), 1997",
+ "items": [
+  {"tag": "STD", "title": "NIST P-curve seeds bounty claimed"},
+  {"tag": "AI", "title": "Backdoors in edited open-weight models"},
+  {"tag": "BTC", "title": "TCP hole punching for home nodes"},
+  {"tag": "BTC", "title": "Bitcoin-rs: a new full node in Rust"},
+  {"tag": "ETH", "title": "Ethereum priority fees, 15 months of data"}
+ ],
+ "stats": "6 posts · 5 sources"}

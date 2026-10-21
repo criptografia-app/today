@@ -1,0 +1,11 @@
+{"date": "2026-10-15",
+ "headline": "Threshold ECDSA at scale, faults in PQ KEMs, multiparty silent payments",
+ "stats": "11 new ePrint papers · 7 posts",
+ "items": [
+  {"tag": "MPC", "title": "Robust threshold ECDSA signing at scale"},
+  {"tag": "PQC", "title": "Fault attacks on HQC and BIKE beyond FO"},
+  {"tag": "BTC", "title": "Silent Payments for multiparty wallets"},
+  {"tag": "ATTACK", "title": "Structural breaks in the Eevee AEAD family"},
+  {"tag": "ATTACK", "title": "Reaction attack on CKKS deployments"},
+  {"tag": "PAPER", "title": "Counting cryptanalyst-hours per algorithm"}
+ ]}

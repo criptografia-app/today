@@ -1,0 +1,21 @@
+Cryptography Today — Oct 21, 2026
+
+Eight eMudhra intermediate certificates turned out to use weak keys: a reminder that a CA is only as strong as its worst key ceremony.
+
+🔐 Security & attacks
+• 8 eMudhra certificates are compromised (Cloudflare) — https://blog.cloudflare.com/emudhra-certificate-compromise/
+• Possible new Cellebrite iPhone radio zero-day — https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html
+
+🧮 Post-quantum
+• FN-DSA on Arm Cortex-M55 with native FP64 and Helium — https://eprint.iacr.org/2026/2559
+
+₿ Bitcoin
+• Cost-bounded transaction filtering language — https://delvingbitcoin.org/t/cost-bounded-transaction-filtering-language/2966
+• BFT finality in a confidential UTXO state machine — https://delvingbitcoin.org/t/evaluating-deterministic-bft-finality-within-a-confidential-utxo-state-machine/2965
+• TCP hole punching for nodes behind home NATs — https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497
+
+Ξ Ethereum research
+• BRO-AMM: a bonded reconciliation oracle AMM — https://ethresear.ch/t/bro-amm-a-bonded-reconciliation-oracle-amm-as-a-low-risk-defi-primitive/26138
+
+What did I miss? Drop it below.
+#Cryptography #PostQuantum #Bitcoin #ZeroKnowledge

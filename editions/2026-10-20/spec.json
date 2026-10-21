@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-20",
+ "headline": "The breaks are in keys and leakage, not in the math",
+ "items": [
+  {
+   "tag": "MPC",
+   "title": "SPDZ MPC: inconsistent MAC keys hurt privacy"
+  },
+  {
+   "tag": "ATTACK",
+   "title": "Eevee AEAD: forgeries under nonce reuse"
+  },
+  {
+   "tag": "PQC",
+   "title": "DPA attacks on VOLE-in-the-Head signatures"
+  },
+  {
+   "tag": "PQC",
+   "title": "NTRU+ keys vs. the best module attacks"
+  },
+  {
+   "tag": "BTC",
+   "title": "SwiftSync: faster IBD with hint files"
+  },
+  {
+   "tag": "ETH",
+   "title": "Quantum-safe, aggregatable privacy pools"
+  }
+ ],
+ "stats": "29 ePrint papers · 8 threads",
+ "window": "4d"
+}

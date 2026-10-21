@@ -1,0 +1,24 @@
+Cryptography Today — Oct 20, 2026
+
+A new paper shows how inconsistent MAC keys can compromise privacy in SPDZ-family MPC: this week the breaks are in keys and leakage, not in the math.
+
+🔐 Security & attacks
+• Off-Key: inconsistent MAC keys compromise privacy in SPDZ-family MPC — https://eprint.iacr.org/2026/2533
+• Eevee: deterministic forgeries against nonce-misuse security — https://eprint.iacr.org/2026/2518
+• DPA-style attacks on VOLE-in-the-Head signature schemes — https://eprint.iacr.org/2026/2519
+
+🧮 Post-quantum
+• How secure are NTRU+ keys? The best module attacks — https://eprint.iacr.org/2026/2527
+• Sparse secrets, dense problems: masking HQC in hardware — https://eprint.iacr.org/2026/2509
+• PQ anonymity for stealth address protocols — https://ethresear.ch/t/pq-anonymity-for-stealth-address-protocol/26094
+• Faster, aggregatable and quantum-safe privacy pools — https://ethresear.ch/t/faster-aggregatable-and-quantum-safe-privacy-pools/26163
+
+₿ Bitcoin
+• SwiftSync: speeding up IBD with pre-generated hints (PoC) — https://delvingbitcoin.org/t/swiftsync-speeding-up-ibd-with-pre-generated-hints-poc/1562
+• Implicit deletions and improvements in Utreexo IBD — https://delvingbitcoin.org/t/implicit-deletions-and-improvements-in-utreexo-ibd/2881
+
+🤖 AI & security
+• Training AIs to solve CAPTCHAs — https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html
+
+What did I miss? Drop it below.
+#Cryptography #PostQuantum #Bitcoin #ZeroKnowledge

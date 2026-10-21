@@ -1,0 +1,12 @@
+# allowlist: only the public page and its inputs
+/*
+!/.gitignore
+!/README.md
+!/CNAME
+!/index.html
+!/feeds.py
+!/today.py
+!/assets/
+!/editions/
+/editions/*/briefing.md
+/editions/*/banner.html

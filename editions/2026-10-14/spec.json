@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-14",
+  "headline": "AI vs. cryptanalysis, PQ credentials, trustless BTC vaults",
+  "stats": "15 new ePrint papers",
+  "items": [
+    {"tag": "SUPPLY", "title": "Package managers have an integrity problem"},
+    {"tag": "AI", "title": "Schneier: the future of AI cryptanalysis"},
+    {"tag": "PQC", "title": "Blind signatures from ML-DSA + VOLEitH"},
+    {"tag": "PQC", "title": "Device binding for PQ anonymous credentials"},
+    {"tag": "BTC", "title": "Trustless Bitcoin Vaults (ePrint)"},
+    {"tag": "BTC", "title": "Bitcoin Core 32.0rc4 is out"}
+  ]
+}

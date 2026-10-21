@@ -1,0 +1,17 @@
+Cryptography Today — Oct 16, 2026
+
+The NIST elliptic curve seeds are no longer a mystery: the bounty has been claimed, and they turn out to be drand48() output seeded with a 1997–98 timestamp, not the hash of a secret phrase.
+
+🔐 Security & attacks
+• NIST curve seeds bounty claimed: it was drand48() — https://words.filippo.io/seeds-solved/
+• Backdooring open-weight AI models — https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html
+
+₿ Bitcoin
+• TCP hole punching for nodes behind home NATs — https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497
+• Bitcoin-rs: an independent full node in Rust — https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918
+
+Ξ Ethereum research
+• Priority fees and tx classification, Jul 2025–Oct 2026 — https://ethresear.ch/t/measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026/26156
+
+A quiet day otherwise. What did I miss? Drop it below.
+#Cryptography #Bitcoin #Ethereum #AISecurity

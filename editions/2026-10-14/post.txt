@@ -1,0 +1,23 @@
+Cryptography Today — Oct 14, 2026
+
+AI is coming for cryptanalysis (or is it?), post-quantum credentials get device binding, and someone wants Bitcoin vaults without trusted bridges.
+
+🔐 Security & attacks
+• Package managers have an integrity problem (25 managers tested) — https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/
+• The future of AI cryptanalysis — https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html
+
+🧮 Post-quantum
+• Issuer-hiding blind signatures from ML-DSA and VOLE-in-the-Head — https://eprint.iacr.org/2026/2473
+• Nowhere Man: device binding for post-quantum anonymous credentials — https://eprint.iacr.org/2026/2472
+• What does "post-quantum" mean for a Bitcoin L2 settling on a non-PQ L1? — https://delvingbitcoin.org/t/what-does-post-quantum-actually-mean-for-a-bitcoin-l2-when-settlement-still-happens-on-a-non-pq-l1/2715
+
+₿ Bitcoin
+• Trustless Bitcoin Vaults — https://eprint.iacr.org/2026/2466
+• Bitcoin Core 32.0rc4 is now available — https://delvingbitcoin.org/t/bitcoin-core-32-0rc4-is-now-available/2958
+
+📄 Also on ePrint
+• Secret sharing from non-extractable randomness — https://eprint.iacr.org/2026/2477
+• Tamper-sensing meshes in payment terminals — https://eprint.iacr.org/2026/2475
+
+What did I miss? Drop it below.
+#Cryptography #PostQuantum #Bitcoin #ZeroKnowledge #AppliedCryptography

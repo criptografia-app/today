@@ -1,0 +1,12 @@
+{"date": "2026-10-21",
+ "headline": "Eight eMudhra intermediates shipped weak keys",
+ "stats": "6 posts · 1 paper",
+ "window": "24h",
+ "items": [
+  {"tag": "ATTACK", "title": "8 eMudhra intermediate certs compromised"},
+  {"tag": "ATTACK", "title": "Leaked doc: possible Cellebrite iPhone 0-day"},
+  {"tag": "PQC", "title": "FN-DSA signing on Cortex-M55 with native FP64"},
+  {"tag": "BTC", "title": "Cost-bounded transaction filtering language"},
+  {"tag": "BTC", "title": "BFT finality in a confidential UTXO machine"},
+  {"tag": "ETH", "title": "BRO-AMM: bonded reconciliation oracle AMM"}
+ ]}
