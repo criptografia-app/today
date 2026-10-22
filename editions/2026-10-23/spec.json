@@ -1,0 +1,12 @@
+{"date": "2026-10-23",
+ "headline": "PHP RCE patched, PQ fix for encrypted mempools",
+ "stats": "6 posts · 0 papers",
+ "window": "24h",
+ "items": [
+  {"tag": "CVE", "title": "Two critical PHP RCE bugs patched"},
+  {"tag": "PQC", "title": "Encrypted mempools: PQ fix for reveal option"},
+  {"tag": "ETH", "title": "Paranoid EIP-8288: recursion + class bank"},
+  {"tag": "ZK", "title": "First look at the 2026 ZK industry report"},
+  {"tag": "BTC", "title": "Cost-bounded transaction filtering language"},
+  {"tag": "BTC", "title": "TCP hole punching for nodes behind NAT"}
+ ]}

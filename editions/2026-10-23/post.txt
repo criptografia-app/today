@@ -1,0 +1,22 @@
+Cryptography Today — Oct 23, 2026
+
+PHP shipped fixes for two critical unauthenticated RCE bugs: if you run PHP anywhere near keys or wallets, patch now.
+
+🔐 Security & attacks
+• Two critical PHP RCE vulnerabilities patched (8.5.12, 8.4.27, 8.3.36, 8.2.35) — https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
+
+🧮 Post-quantum
+• Encrypted mempools: pricing the sender's free option, and a PQ way to remove it — https://ethresear.ch/t/reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it/26169
+
+₿ Bitcoin
+• Cost-bounded transaction filtering language — https://delvingbitcoin.org/t/cost-bounded-transaction-filtering-language/2966
+• TCP hole punching for nodes behind home NATs — https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497
+
+🧾 Zero knowledge
+• A first look at the 2026 ZK industry report — https://zkmesh.substack.com/p/a-first-look-at-the-2026-zk-industry
+
+Ξ Ethereum research
+• Paranoid EIP-8288: heterogeneous recursion with an authenticated class bank — https://ethresear.ch/t/paranoid-eip-8288-heterogeneous-recursion-with-an-authenticated-class-bank/26170
+
+What did I miss? Drop it below.
+#Cryptography #PostQuantum #Bitcoin #ZeroKnowledge
