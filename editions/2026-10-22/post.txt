@@ -1,20 +1,22 @@
 Cryptography Today — Oct 22, 2026
 
-A quiet day, led by Trail of Bits on the question every team using coding agents should ask: the agent fixed the bug, but what else did it change?
+PHP shipped fixes for two critical unauthenticated RCE bugs: if you run PHP anywhere near keys or wallets, patch now.
 
 🔐 Security & attacks
-• Your AI agent fixed the bug, but what else did it change? — https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/
+• Two critical PHP RCE vulnerabilities patched (8.5.12, 8.4.27, 8.3.36, 8.2.35) — https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html
+
+🧮 Post-quantum
+• Encrypted mempools: pricing the sender's free option, and a PQ way to remove it — https://ethresear.ch/t/reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it/26169
 
 ₿ Bitcoin
-• Bounds on chain length with BIP-54 timewarp fixes — https://delvingbitcoin.org/t/bounds-on-chain-length-with-bip-54-timewarp-fixes/2899
-• Softfork before GTA VI? — https://delvingbitcoin.org/t/softfork-before-gta-vi/2913
-• Projects to make merchant adoption easier and cheaper — https://delvingbitcoin.org/t/several-projects-to-make-merchant-adoption-easier-and-cheaper/2967
+• Cost-bounded transaction filtering language — https://delvingbitcoin.org/t/cost-bounded-transaction-filtering-language/2966
+• TCP hole punching for nodes behind home NATs — https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497
+
+🧾 Zero knowledge
+• A first look at the 2026 ZK industry report — https://zkmesh.substack.com/p/a-first-look-at-the-2026-zk-industry
 
 Ξ Ethereum research
-• SEACAST: lean broadcast with an executable spec and formal model — https://ethresear.ch/t/seacast-fast-lean-broadcast-for-ethereum-with-an-executable-spec-and-a-formal-model/26167
-
-📄 Reading list
-• 25 years of WEIS (economics of security) papers, archived — https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html
+• Paranoid EIP-8288: heterogeneous recursion with an authenticated class bank — https://ethresear.ch/t/paranoid-eip-8288-heterogeneous-recursion-with-an-authenticated-class-bank/26170
 
 What did I miss? Drop it below.
 #Cryptography #PostQuantum #Bitcoin #ZeroKnowledge
