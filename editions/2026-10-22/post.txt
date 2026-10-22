@@ -1,0 +1,20 @@
+Cryptography Today — Oct 22, 2026
+
+A quiet day, led by Trail of Bits on the question every team using coding agents should ask: the agent fixed the bug, but what else did it change?
+
+🔐 Security & attacks
+• Your AI agent fixed the bug, but what else did it change? — https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/
+
+₿ Bitcoin
+• Bounds on chain length with BIP-54 timewarp fixes — https://delvingbitcoin.org/t/bounds-on-chain-length-with-bip-54-timewarp-fixes/2899
+• Softfork before GTA VI? — https://delvingbitcoin.org/t/softfork-before-gta-vi/2913
+• Projects to make merchant adoption easier and cheaper — https://delvingbitcoin.org/t/several-projects-to-make-merchant-adoption-easier-and-cheaper/2967
+
+Ξ Ethereum research
+• SEACAST: lean broadcast with an executable spec and formal model — https://ethresear.ch/t/seacast-fast-lean-broadcast-for-ethereum-with-an-executable-spec-and-a-formal-model/26167
+
+📄 Reading list
+• 25 years of WEIS (economics of security) papers, archived — https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html
+
+What did I miss? Drop it below.
+#Cryptography #PostQuantum #Bitcoin #ZeroKnowledge

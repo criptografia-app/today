@@ -1,0 +1,12 @@
+{"date": "2026-10-22",
+ "headline": "Quiet day: AI patch review, timewarp bounds, SEACAST",
+ "stats": "7 posts · 0 papers",
+ "window": "24h",
+ "items": [
+  {"tag": "AI", "title": "Your AI agent fixed the bug. What else?"},
+  {"tag": "BTC", "title": "Chain length bounds with BIP-54 timewarp fix"},
+  {"tag": "BTC", "title": "Softfork before GTA VI?"},
+  {"tag": "BTC", "title": "Making merchant adoption easier and cheaper"},
+  {"tag": "ETH", "title": "SEACAST: lean broadcast with a formal model"},
+  {"tag": "PAPER", "title": "25 years of WEIS papers, now archived"}
+ ]}
