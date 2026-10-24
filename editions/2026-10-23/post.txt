@@ -1,0 +1,19 @@
+Cryptography Today — Oct 23, 2026
+
+Eight eMudhra intermediate CA keys were recoverable straight from their public certificates (P-384 private values below 256, one was literally 4), traced to a script flaw in an HSM key ceremony.
+
+🔐 Security & attacks
+• Compromised TLS certificates: eMudhra's laughably weak keys — https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html
+• Mozilla, Google and Apple block the compromised eMudhra CAs — https://bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates
+• Eight eMudhra keys were so weak that one was the number 4 — https://thenextweb.com/news/emudhra-certificates-weak-keys-browsers-block
+
+🧮 Post-quantum
+• "Proof-of-Decay": a cryptographic half-life for unmigrated dormant UTXOs — https://delvingbitcoin.org/t/a-novel-post-quantum-approach-proof-of-decay-cryptographic-half-life-for-unmigrated-dormant-utxos/2970
+
+₿ Bitcoin
+• Best critiques of BIP300 / drivechains? — https://delvingbitcoin.org/t/best-critiques-of-bip300-drivechains/2969
+
+Lesson for anyone running key ceremonies: check the key you generated, not just its label.
+
+What did I miss? Drop it below.
+#Cryptography #PKI #PostQuantum #Bitcoin

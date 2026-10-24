@@ -1,0 +1,11 @@
+{"date": "2026-10-23",
+ "headline": "eMudhra CA keys so weak one was the number 4",
+ "stats": "5 links · 0 papers",
+ "window": "24h",
+ "items": [
+  {"tag": "ATTACK", "title": "8 eMudhra CA keys recoverable from certs"},
+  {"tag": "ATTACK", "title": "Root cause: HSM ceremony script bug"},
+  {"tag": "STD", "title": "Mozilla, Google, Apple, MS block the CAs"},
+  {"tag": "PQC", "title": "Proof-of-Decay for unmigrated dormant UTXOs"},
+  {"tag": "BTC", "title": "Best critiques of BIP300 drivechains?"}
+ ]}
