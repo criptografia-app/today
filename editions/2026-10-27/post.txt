@@ -1,0 +1,24 @@
+Cryptography Today — Oct 27, 2026
+
+New ePrint paper: against Kyber-512, side-channel leakage with ring structure recovers the full secret with about half the hints the standard estimates predict, so those estimates understate the risk.
+
+📄 New papers (IACR ePrint)
+• When Algebraic Structure Meets Too Many Hints — https://eprint.iacr.org/2026/2654
+
+🧮 Post-quantum
+• Libshrincs: machine-checked C for SHRINCS's WOTS+C, now challenged on its security model — https://delvingbitcoin.org/t/libshrincs-a-c-implementation-with-a-machine-checked-security-proof/2795
+• Inventory of PQ P2P migrations in Ethereum's consensus layer — https://ethresear.ch/t/inventory-of-pq-p2p-migrations-in-the-consensus-layer/26183
+• Public key recovery for EC leaves in P2MR (BIP-360) — https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603
+
+₿ Bitcoin & custody
+• BIP draft: a standard format for co-signer spending policies — https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955
+• Silent Payments for multiparty wallets — https://delvingbitcoin.org/t/silent-payments-for-multiparty-wallets/2960
+• The bitcoin-dev mailing list made readable: 15 years, 24,699 messages — https://delvingbitcoin.org/t/we-made-the-bitcoin-dev-mailing-list-readable-15-years-24-699-messages/2985
+
+🤖 AI security
+• Hiding capabilities in AI models — https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html
+
+A quiet day for news, a good one for design review: three of these threads are people asking "what exactly does this commit to?"
+
+What did I miss? Drop it below.
+#Cryptography #PostQuantum #Bitcoin #Custody

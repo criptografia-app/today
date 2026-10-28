@@ -1,0 +1,11 @@
+{"date": "2026-10-27",
+ "headline": "Kyber-512 side channels need half the hints",
+ "stats": "8 links · 1 paper",
+ "window": "24h",
+ "items": [
+  {"tag": "PAPER", "title": "Kyber-512 secrets with half the hints"},
+  {"tag": "BTC", "title": "BIP draft: co-signer spending policies"},
+  {"tag": "PQC", "title": "Libshrincs proof called weaker than EUF-CMA"},
+  {"tag": "ETH", "title": "No PQ profile yet for Ethereum's P2P layer"},
+  {"tag": "AI", "title": "AI models can provably hide capabilities"}
+ ]}
