@@ -1,0 +1,11 @@
+{"date": "2026-10-29",
+ "headline": "23k cat qubits, 3 days: a new RSA-2048 estimate",
+ "stats": "10 links · 9 papers",
+ "window": "48h",
+ "items": [
+  {"tag": "PQC", "title": "Shor on cat qubits: RSA-2048 in 3.14 days"},
+  {"tag": "CVE", "title": "Core v32.1 fixes walletnotify cmd injection"},
+  {"tag": "PQC", "title": "Network policy for quantum-vulnerable UTXOs"},
+  {"tag": "BTC", "title": "Multiplication in Tapscript, no soft fork"},
+  {"tag": "PAPER", "title": "Faster complete formulas for secp256k1"}
+ ]}

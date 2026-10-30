@@ -1,0 +1,26 @@
+Cryptography Today — Oct 29, 2026
+
+A new resource estimate puts Shor's algorithm on cat qubits at about 23,000 qubits and 3.14 days to factor RSA-2048, assuming hardware with essentially no bit-flips.
+
+🧮 Post-quantum
+• Shor's algorithm compiled on cat qubits: 22,593 qubits for RSA-2048 in 3.14 days — https://eprint.iacr.org/2026/2665
+• Thoughts on a network policy for quantum-vulnerable UTXOs — https://delvingbitcoin.org/t/thoughts-on-a-network-policy-for-quantum-vulnerable-utxos-long-exposure-quantum-attacks/2111
+• Reveal optionality in encrypted mempools, and a post-quantum way to remove it — https://ethresear.ch/t/reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it/26169
+
+🔐 Security
+• Bitcoin Core v32.1: fixes command injection via -walletnotify and a private-broadcast IP leak — https://delvingbitcoin.org/t/bitcoin-core-v32-1-released/3008
+
+₿ Bitcoin & custody
+• Multiplication in Tapscript today: 371 bytes, no soft fork — https://delvingbitcoin.org/t/multiplication-in-tapscript-today-371-bytes-no-soft-fork/3010
+• BIP draft: co-signer spending policies (discussion continues) — https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955
+• Silent Payments for multiparty wallets — https://delvingbitcoin.org/t/silent-payments-for-multiparty-wallets/2960
+
+📄 New papers (IACR ePrint)
+• Faster complete formulas for curves like secp256k1, BN and BLS — https://eprint.iacr.org/2026/2667
+• Beyond the Event Horizon of Keccak (second preimages, not practical at standard SHA-3 capacities) — https://eprint.iacr.org/2026/2671
+• Efficient SIMD SHAKE for lattice-based schemes — https://eprint.iacr.org/2026/2666
+
+Two days, one theme: the quantum timeline keeps getting more concrete, on paper and in Bitcoin's mempool policy debates.
+
+What did I miss? Drop it below.
+#Cryptography #PostQuantum #Bitcoin #QuantumComputing
