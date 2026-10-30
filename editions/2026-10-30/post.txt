@@ -1,0 +1,23 @@
+Cryptography Today — Oct 30, 2026
+
+Follow-up on eMudhra's weak CA keys: Cloudflare logged about 22,000 handshakes using them in one week and about 160 forged certificates for other organizations' domains, with no evidence yet of interception on its network.
+
+🔐 Security & attacks
+• 4 real? Tracking exploitation and patching of eMudhra's weak keys (Cloudflare) — https://blog.cloudflare.com/emudhra-patching/
+• Bitcoin Optech #429: Core 32.1, 31.2, 30.4 and 29.5 ship three security fixes, Core's faster disclosure policy, a CLN crash-loop DoS (fixed in 26.04.1), Eclair 0.14.6 security release — https://bitcoinops.org/en/newsletters/2026/10/30/
+
+🧮 Post-quantum
+• Post-quantum signatureless authorization with recursive verification — https://ethresear.ch/t/post-quantum-signatureless-authorization-with-recursive-verification/26196
+• Thoughts on a network policy for quantum-vulnerable UTXOs — https://delvingbitcoin.org/t/thoughts-on-a-network-policy-for-quantum-vulnerable-utxos-long-exposure-quantum-attacks/2111
+
+₿ Bitcoin & custody
+• Silent Payments for multiparty wallets (FROST / MuSig2 inputs, no BIP changes) — https://delvingbitcoin.org/t/silent-payments-for-multiparty-wallets/2960
+• Scoped Capability Tokens for STVA (transaction authorization) — https://ethresear.ch/t/scoped-capability-tokens-for-stva/26195
+
+🛠 Everything else
+• Bloatware in aftermarket auto parts — https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html
+
+If you run Bitcoin Core or a Lightning node, this is an upgrade week.
+
+What did I miss? Drop it below.
+#Cryptography #PKI #Bitcoin #PostQuantum

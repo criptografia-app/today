@@ -1,0 +1,11 @@
+{"date": "2026-10-30",
+ "headline": "Cloudflare saw 160 forged eMudhra certs",
+ "stats": "7 links · 0 papers",
+ "window": "24h",
+ "items": [
+  {"tag": "ATTACK", "title": "eMudhra weak keys: 22k handshakes in a week"},
+  {"tag": "CVE", "title": "Core 32.1/31.2/30.4/29.5: 3 security fixes"},
+  {"tag": "STD", "title": "Bitcoin Core speeds up vuln disclosures"},
+  {"tag": "CVE", "title": "CLN crash loop on self-referential channels"},
+  {"tag": "PQC", "title": "PQ authorization without signatures"}
+ ]}
